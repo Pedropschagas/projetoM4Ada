@@ -6,7 +6,7 @@ services:
     image: mysql
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_DATABASE: carloca
+      MYSQL_DATABASE: GestaoDeEstoque
     cap_add:
       - SYS_NICE
     ports:

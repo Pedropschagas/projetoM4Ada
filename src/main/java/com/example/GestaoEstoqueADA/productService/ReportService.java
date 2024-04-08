@@ -1,8 +1,7 @@
 package com.example.GestaoEstoqueADA.productService;
 
 import com.example.GestaoEstoqueADA.model.Product;
-import com.example.GestaoEstoqueADA.productRepository.RepositoryInt;
-
+import com.example.GestaoEstoqueADA.productRepository.ProductRepository;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -14,15 +13,15 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ReportService {
-    private final RepositoryInt<Product> repositoryInt;
+    private final ProductRepository productRepository;
 
-    public ReportService(RepositoryInt<Product> repositoryInt) {
-        this.repositoryInt = repositoryInt;
+    public ReportService(ProductRepository productRepository) {
+        this.productRepository = productRepository;
     }
 
     @PostConstruct
     public List<Product> allProducts() {
-        return repositoryInt.show();
+        return productRepository.findAll();
     }
 
     public void averageValue(List<Product> products) {
@@ -38,15 +37,17 @@ public class ReportService {
         System.out.printf("%n%s%n", "Produtos por Categoria");
         categoryProducts.forEach((key, value) -> System.out.printf("%s -> %d produtos%n", key, value.size()));
     }
+    
     public void few(List<Product> products) {
         List<Product> fewUnits = products.stream().filter(product -> product.getAmount() < 10).toList();
-        System.out.printf("% Produtos com menos de 10 unidades: %s%n", fewUnits);
+        System.out.printf("Produtos com menos de 10 unidades: %s%n", fewUnits);
     }
 
     public void productFilter(List<Product> products, Predicate<Product> predicate) {
         List<Product> fewUnits = products.stream().filter(predicate).toList();
         System.out.printf("%nProdutos selecionados: %s%n", fewUnits);
     }
+
     public Set<String> categories(List<Product> products) {
         return products.stream()
                 .map(Product::getCategory)

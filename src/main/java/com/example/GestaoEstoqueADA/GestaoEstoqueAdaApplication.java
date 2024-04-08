@@ -31,6 +31,7 @@ public class GestaoEstoqueAdaApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         dbService.initializer();
         List<Product> products = reportService.allProducts();
+        products.forEach(System.out::println);
         Set<String> categories = reportService.categories(products);
         System.out.printf("Categorias únicas: %d%n", categories.size());
         System.out.printf("Categorias: %s%n", categories);
