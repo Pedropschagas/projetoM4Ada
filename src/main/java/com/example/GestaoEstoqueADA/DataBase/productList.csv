@@ -1,0 +1,51 @@
+id,name,amount,category,price
+1,Camiseta Branca,100,Vestuário,19.99
+2,Calça Jeans Skinny,80,Vestuário,39.99
+3,Tênis Esportivo,50,Calçados,49.99
+4,Óculos de Sol Aviador,30,Acessórios,29.99
+5,Relógio Analógico,60,Acessórios,34.99
+6,Camisa Polo,70,Vestuário,24.99
+7,Saia Midi Floral,40,Vestuário,29.99
+8,Tênis Casual,65,Calçados,44.99
+9,Boné Trucker,45,Acessórios,14.99
+10,Jaqueta Corta-Vento,25,Vestuário,59.99
+11,Calça Legging,55,Vestuário,19.99
+12,Sandália Rasteira,75,Calçados,24.99
+13,Mochila Escolar,35,Acessórios,39.99
+14,Camiseta Regata,90,Vestuário,14.99
+15,Bermuda Cargo,50,Vestuário,34.99
+16,Sapato Social,20,Calçados,54.99
+17,Óculos de Sol Redondo,40,Acessórios,19.99
+18,Relógio Digital,55,Acessórios,29.99
+19,Blusade Moletom,65,Vestuário,44.99
+20,Chinelo Slide,85,Calçados,19.99
+21,Bolsa Tiracolo,30,Acessórios,24.99
+22,Camiseta Estampada,75,Vestuário,22.99
+23,Calça Cargo,45,Vestuário,39.99
+24,Tênis de Corrida,60,Calçados,69.99
+25,Cintode Couro,50,Acessórios,17.99
+26,Vestido Longo,40,Vestuário,49.99
+27,Sapatênis,70,Calçados,49.99
+28,Bolsa de Viagem,25,Acessórios,59.99
+29,Blazer Slim Fit,35,Vestuário,79.99
+30,Short Jeans,80,Vestuário,29.99
+31,Sapato Mocassim,30,Calçados,64.99
+32,Chapéu Panamá,20,Acessórios,34.99
+33,Camiseta Manga Longa,60,Vestuário,24.99
+34,Legging Fitness,50,Vestuário,29.99
+35,Sandália Anabela,45,Calçados,34.99
+36,Nécessaire,40,Acessórios,9.99
+37,Camisa Social,55,Vestuário,39.99
+38,Calçade Moletom,70,Vestuário,24.99
+39,Bota de Couro,25,Calçados,89.99
+40,Colar Feminino,65,Acessórios,12.99
+41,Camiseta Henley,60,Vestuário,19.99
+42,Legging Estampada,40,Vestuário,34.99
+43,Chinelo de Dedo,70,Calçados,14.99
+44,Bolsade Festa,35,Acessórios,49.99
+45,Blusade Algodão,80,Vestuário,27.99
+46,Calça Social,50,Vestuário,49.99
+47,Sapato Oxford,30,Calçados,59.99
+48,Óculos de SolWayfarer,40,Acessórios,24.99
+49,Relógio de Pulso Esportivo,55,Acessórios,39.99
+50,Camiseta Polo Slim Fit,70,Vestuário,34.99
