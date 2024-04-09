@@ -1,3 +1,5 @@
+- link enviado da branch Master, porfavor considerar a branch Main.
+
 # Gestão de Estoque
 
 Sistema de Gerenciamento de Estoque:
